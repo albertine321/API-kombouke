@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="api.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-side</title>
+</head>
+
+<body>
+    <h1>Are you bored? 🥱</h1>
+
+    <hr>
+
+    <button id="aktivitet-button" onclick="hentData()"> Click for random activity!</button>
+
+    <h2 id="aktivitet">Activity</h2>
+
+    <div class="aktivitet-kort">
+        <div class="aktivitet-info">
+            <p>Type:</p>
+            <p id="type"></p>
+        </div>
+
+        <div class="aktivitet-info">
+            <p>Accessability:</p>
+            <p id="tilgjengelighet"></p>
+        </div>
+        
+        <div class="aktivitet-info">
+            <p>Price:</p>
+            <p id="pris"></p>
+        </div>
+
+         <div class="aktivitet-info">
+            <p>Participants:</p>
+            <p id="deltakere"></p>
+        </div>
+
+    </div>
+
+    <div class="aktivitet-typer">
+        <button class="aktivitet-type" onclick="hentDataType('education')">Educational</button>
+        <button class="aktivitet-type" onclick="hentDataType('recreational')">Recreational</button>
+        <button class="aktivitet-type" onclick="hentDataType('social')">Social</button>
+        <button class="aktivitet-type" onclick="hentDataType('charity')">Charity</button>
+    </div>
+
+<script src="api.js"></script>    
+</body>
+</html>
+
+

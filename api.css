@@ -1,0 +1,104 @@
+body{
+    background-color: #F3EED7;
+    margin: 0;
+    padding: 0;
+    color: #6A3D29;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 35px;
+}
+
+hr{
+    height: 2px; 
+    background-color: #6A3D29;
+    margin-bottom: 40px;
+}
+
+#aktivitet-button{
+    display: flex;
+    justify-content: center;
+    background-color: #D36060;
+    color: #F3EED7; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+    border: solid 2px #6A3D29;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#aktivitet-button:hover{
+    display: flex;
+    justify-content: center;
+    background-color: #b95454;
+    color: #F3EED7; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+    border: solid 2px #6A3D29;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+.aktivitet-kort{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.aktivitet-info{
+    display: flex;
+    justify-content: center;
+}
+
+#type, #deltakere, #pris, #tilgjengelighet{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.aktivitet-typer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.aktivitet-type{
+    background-color: #D36060;
+    color: #F3EED7; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 24px;
+    border: solid 2px #6A3D29;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aktivitet-type:hover{
+    background-color: #b95454;
+    color: #F3EED7; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 24px;
+    border: solid 2px #6A3D29;
+    font-family: 'Times New Roman', Times, serif;
+}
